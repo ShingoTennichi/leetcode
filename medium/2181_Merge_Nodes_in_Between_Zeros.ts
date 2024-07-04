@@ -4,6 +4,8 @@
 //  while loop: O(n)
 // space: => O(1)
 
+// https://leetcode.com/problems/merge-nodes-in-between-zeros/description/
+
 function mergeNodes(head: ListNode): ListNode | null {
   let curr: ListNode = head;
   let temp: ListNode | null = curr.next;
