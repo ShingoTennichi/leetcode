@@ -8,6 +8,7 @@
 
 // https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/description/
 
+import { ListNode } from "./0.leetcode_classes";
 function nodesBetweenCriticalPoints(head: ListNode | null): number[] {
   let index: number = 0;
   let curr: ListNode | null = head;

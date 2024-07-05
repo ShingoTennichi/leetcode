@@ -2,7 +2,7 @@
 
 // runtime:  O(n) => traverse(): O(n), binarySearch(): O(n)
 // space: O(n)
-
+import { TreeNode } from "./0.leetcode_classes";
 function balanceBST(root: TreeNode | null): TreeNode | null {
   const arr: number[] = [];
   traverse(arr, root!);

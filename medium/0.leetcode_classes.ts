@@ -1,4 +1,13 @@
-class ListNode {
+export class Node {
+  val: number;
+  neighbors: Node[];
+  constructor(val?: number, neighbors?: Node[]) {
+    this.val = val === undefined ? 0 : val;
+    this.neighbors = neighbors === undefined ? [] : neighbors;
+  }
+}
+
+export class ListNode {
   val: number;
   next: ListNode | null;
   constructor(val?: number, next?: ListNode | null) {
@@ -7,7 +16,7 @@ class ListNode {
   }
 }
 
-class TreeNode {
+export class TreeNode {
   val: number;
   left: TreeNode | null;
   right: TreeNode | null;

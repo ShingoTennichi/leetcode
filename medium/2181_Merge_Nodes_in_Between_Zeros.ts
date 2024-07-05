@@ -6,6 +6,7 @@
 
 // https://leetcode.com/problems/merge-nodes-in-between-zeros/description/
 
+import { ListNode } from "./0.leetcode_classes";
 function mergeNodes(head: ListNode): ListNode | null {
   let curr: ListNode = head;
   let temp: ListNode | null = curr.next;
