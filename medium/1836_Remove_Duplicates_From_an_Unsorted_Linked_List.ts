@@ -7,7 +7,7 @@
 //  dummy: O(1)
 //  duplicated: O(n)
 
-// https://leetcode.com/problems/maximum-total-importance-of-roads/description/
+// https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/description/
 
 import { ListNode } from "./0.leetcode_classes";
 function deleteDuplicatesUnsorted(head: ListNode | null): ListNode | null {
